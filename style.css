@@ -1,0 +1,54 @@
+/*
+Theme Name:		Hacks/Hackers Help
+Theme URI: 		http://help.hackshackers.com
+Description: 	Theme for help.hackshackers.com
+Author:			Benjamin J. Balter
+Author URI: 	http://ben.balter.com
+Template:		twentyeleven
+Version:		1.0
+*/
+
+@import url("../twentyeleven/style.css");
+
+/* Layout */
+#qa-page-wrapper {width: 100% !important;}
+/*.right-sidebar #qa-page-wrapper { width: auto !important;}*/
+.question-summary {width: 75% !important;} 
+.question-score {height: 78px !important;}
+#ask-question { padding-right: 10px; }
+#branding img { width:auto; margin: 30px 0 30px 50px;}
+#branding .only-search #searchform {top: 75px;}
+#branding .only-search #s:focus { background-color: transparent; }
+
+/* Titles */
+#edit-answer h2 { font-weight: bold; font-size: 20px; }
+#answer-form { margin-top: -40px; }
+#single-question h1 { font-weight: bold; font-size: 22px; }
+#branding .only-search #s { background-color: transparent; border-color: #DDD; color: #888; }
+
+/* Comments */
+.comment-content p { margin-bottom: 5px; }
+.commentlist li.comment { background: none; border: none; border-bottom: 1px solid #ccc; border-radius: 0; margin: 0; padding: 0; font-size: 12px; margin-bottom: 5px; }
+.commentlist > li::before, .commentlist > li.bypostauthor::before { content: none;}
+.commentlist .avatar { left: -50px; }
+.commentlist { margin-left: 50px; }
+#respond { margin: 0; border: none; background: none; padding: 0; }
+#respond p { margin: 0; }
+#reply-title {clear: none; margin-top: 10px; font-size: 15px; font-weight: normal; }
+#reply-title:hover { text-decoration: underline; }
+#comment { margin-top: -30px; }
+#respond .comment-form-comment label { top: 10px; }
+#respond input#submit { left: 0; }
+#commentform { margin-top: 10px; }
+
+/* Sidebar */
+.widget-area ol { margin: 0;}
+
+/* Editor */
+#answer_path_row { display: none; }
+#ask-question .mceToolbar, #ask-question #question_content_toolbar1, #ask-question #question_content_toolbar2 #ask-question #question-form table, #ask-question table {width: 100% !important; max-width: 584px; }
+.help-text {font-size: 12px; color: #aaa; }
+#question-tags-label {width: 125px !important;}
+#question-taxonomies {margin-top: 20px;}
+#question-form {margin-top: 30px; max-width: 584px; }
+#wp-question_content-wrap {margin-top: 20px; }
